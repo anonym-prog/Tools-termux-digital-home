@@ -1,40 +1,60 @@
-# 🏠 Digital Home Pentest
+# 🔴🟡🟢 CYBERPULSE - Termux Arsenal v1.0
 
-**10 Tools Penetration Testing untuk Termux (Android)**
+╔══════════════════════════════════════════════════════════╗
+║   ██████╗██╗   ██╗██████╗ ███████╗██████╗ ██████╗     ║
+║  ██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗██╔══██╗    ║
+║  ██║      ╚████╔╝ ██████╔╝█████╗  ██████╔╝██████╔╝    ║
+║  ██║       ╚██╔╝  ██╔══██╗██╔══╝  ██╔══██╗██╔═══╝     ║
+║  ╚██████╗   ██║   ██████╔╝███████╗██║  ██║██║         ║
+║   ╚═════╝   ╚═╝   ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝         ║
+║     ██████╗ ██╗   ██╗██████╗ ███████╗██████╗          ║
+║    ██╔════╝ ██║   ██║██╔══██╗██╔════╝██╔══██╗         ║
+║    ██║  ███╗██║   ██║██████╔╝█████╗  ██████╔╝         ║
+║    ██║   ██║██║   ██║██╔══██╗██╔══╝  ██╔══██╗         ║
+║    ╚██████╔╝╚██████╔╝██║  ██║███████╗██║  ██║         ║
+║     ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝         ║
+║                                                         ║
+║  🔴 MERAH 🟡 KUNING 🟢 HIJAU                          ║
+║  ⚡ 50 TOOLS RECON • SCANNER • EXPLOIT • OSINT ⚡      ║
+╚══════════════════════════════════════════════════════════╝
 
-Repository ini berisi 10 tools penetration testing yang kompatibel dengan **Termux** di Android. Cocok untuk belajar ethical hacking, vulnerability assessment, dan security testing.
+> **Authorized Pentesting Toolkit for Termux Android**
+> **Author:** [Your GitHub Username]
+> **Version:** 1.0 | **Platform:** Termux (Android) / Linux
 
 ---
 
-## 📦 Daftar 10 Tools
+## 🔥 FITUR
 
-| No | Tools | Fungsi |
-|:--:|-------|--------|
-| 1 | **Nmap** | Network scanning & port enumeration |
-| 2 | **Metasploit** | Exploitation framework |
-| 3 | **SQLMap** | SQL injection automation |
-| 4 | **IP Geolocation** | IP address tracking & geolocation |
-| 5 | **Wireshark (Termshark)** | Packet analysis & network sniffing |
-| 6 | **Hydra** | Brute-force password cracking |
-| 7 | **Nikto** | Web server vulnerability scanner |
-| 8 | **John the Ripper** | Password hash cracking |
-| 9 | **Aircrack-ng** | Wireless network security testing |
-| 10 | **Netcat** | Networking swiss army knife |
+| Fitur | Deskripsi |
+|-------|-----------|
+| 🎯 **50 Tools** | Recon, Scanner, Exploit, OSINT, Network, Extra |
+| 🎨 **Cyber Theme** | Warna Merah 🟡 Kuning 🟢 Hijau |
+| 🖥️ **Banner Keren** | ASCII Art + System Info saat startup |
+| ⚡ **1-Click Install** | Semua tools terinstall otomatis |
+| 🔄 **Update** | Mudah di-update via git pull |
+| 📱 **Termux Optimized** | Khusus untuk Android Termux |
 
 ---
 
-## 🚀 Cara Install Semua Tools
-
-Buka Termux dan jalankan:
+## ⚡ INSTALASI
 
 ```bash
+# 1. Update Termux
 pkg update && pkg upgrade -y
-pkg install git curl wget -y
+pkg install git curl wget python -y
 
-# Install tools via pkg
-pkg install nmap hydra john aircrack-ng netcat -y
-pkg install unstable-repo && pkg install metasploit
-pkg install python python2 && pip install sqlmap
-pkg install perl && git clone https://github.com/sullo/nikto
-git clone https://github.com/maldevel/IPGeoLocation
-pkg install termshark
+# 2. Clone Repository
+git clone https://github.com/[username]/CYBERPULSE.git
+
+# 3. Masuk ke folder
+cd CYBERPULSE
+
+# 4. Beri izin eksekusi
+chmod +x *.sh tools/**/*.sh
+
+# 5. Install semua tools
+bash install.sh
+
+# 6. (Opsional) Pasang Banner Cyber
+bash banner.sh
