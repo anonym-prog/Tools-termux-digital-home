@@ -58,3 +58,32 @@ bash install.sh
 
 # 6. (Opsional) Pasang Banner Cyber
 bash banner.sh
+
+# Melihat semua tools yang terinstall
+cyberpulse --list
+# atau
+cyberpulse -l
+
+# Menjalankan tools tertentu
+cyberpulse run nmap
+cyberpulse run sqlmap
+cyberpulse run bettercap
+
+# Update tools
+cyberpulse update
+
+# Menampilkan banner
+cyberpulse banner
+
+# Info sistem
+cyberpulse info
+
+┌──[root@cyberpulse]─[~/tools]
+└──╼ $ █
+
+Warna Scheme:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔴 #FF0000 - Merah (Exploit/Danger)
+🟡 #FFFF00 - Kuning (Warning/Scanner)
+🟢 #00FF00 - Hijau (Success/Recon)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
