@@ -6,6 +6,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 # CYBERPULSE - Color Configuration
 # Theme: Red 🟡 Yellow 🟢 Green
+`source color.sh`
 
 # Warna dasar
 R='\033[1;31m'   # Merah - untuk exploit/danger
